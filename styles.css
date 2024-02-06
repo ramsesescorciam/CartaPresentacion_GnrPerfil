@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 82.5%;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    max-width: 380px;
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+img{
+    width: 200px;
+}
+
+article{
+    background-color: #f0f0f0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 10px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+h3{
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+    gap: 20px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+p {
+    color: #666;
+    gap: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input{
+    border: 3px dotted #999;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+}
+
+button{
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6a1a9e;
+}
+  
